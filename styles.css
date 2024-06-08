@@ -1,0 +1,111 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: red;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Page-specific styles */
+.container h2 {
+    color: #990000;
+}
+
+.container p {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+    display: block;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .container img {
+        width: 100%;
+        height: auto;
+    }
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black
+    padding: 10px 0;
+    transition: transform 0.3s ease;
+}
+
+.footer.hidden {
+    transform: translateY(100%);
+}
+/* Grid layout for portfolio images */
+.container {
+    margin: 20px;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 4fr);
+    grid-gap: 20px;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+}
