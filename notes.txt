@@ -1,0 +1,10 @@
+Notes
+
+
+CONTACT PAGE SCRIPT 
+
+ <h2>Contact Long Photography</h2>
+        <p>Feel free to reach out to us for any inquiries or collaborations.</p>
+        <p>Email: <a href="mailto:longphotography04@gmail.com">longphotography04@gmail.com</a></p>
+		<p>Phone: <a href="tel:5">5</a></p>
+    </div>

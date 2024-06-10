@@ -9,7 +9,7 @@ body {
 
 header {
     background-color: #333;
-    color:#a60002;
+    color: #a60002;
     text-align: center;
     padding: 1em 0;
 }
@@ -108,4 +108,16 @@ footer {
 .grid-item img {
     width: 100%;
     height: auto;
+}
+.container {
+    text-align: center; /* Center-align content within the container */
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bold-text {
+    font-weight: bold;
 }

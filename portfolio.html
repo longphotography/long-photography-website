@@ -9,9 +9,9 @@
 <body>
     <header>
         <img src="your-new-logo.png" alt="Long Photography Logo" style="max-width: 300px; height: auto;">
-        <h1>Long Photography</h1>
-        <p>Capturing the beauty of life, one shot at a time</p>
+        <p class="bold-text">Capturing the beauty of life, one shot at a time</p>
     </header>
+
 
     <nav>
         <ul>
@@ -28,11 +28,11 @@
             <div class="grid-item"><img src="IMG_0684.JPG" alt="A beautiful countryside landscape"></div>
             <div class="grid-item"><img src="DJI_0088 (2).JPG" alt="An aerial view of farmland"></div>
             <div class="grid-item"><img src="DJI_0088.JPG" alt="A serene rural scene at sunset"></div>
-			<div class="grid-item"><img src="IMG_0711.JPG"  alt="A beautiful Waterfall landscape"></div>
-			<div class="grid-item"><img src="DJI_0200.JPG"  alt="long"></div>
-			<div class="grid-item"><img src="DJI_0299.JPG"  alt="long"></div>
-			<div class="grid-item"><img src="IMG_0244.JPG"  alt="long"></div>
-			<div class="grid-item"><img src="IMG_0442.JPG"  alt="long"></div>
+            <div class="grid-item"><img src="IMG_0711.JPG" alt="A beautiful Waterfall landscape"></div>
+            <div class="grid-item"><img src="DJI_0200.JPG" alt="long"></div>
+            <div class="grid-item"><img src="DJI_0299.JPG" alt="long"></div>
+            <div class="grid-item"><img src="IMG_0244.JPG" alt="long"></div>
+            <div class="grid-item"><img src="IMG_0442.JPG" alt="long"></div>
         </div>
     </div>
 
@@ -46,9 +46,9 @@
 
     <script>
         var lastScrollTop = 0;
-        window.addEventListener("scroll", function(){ // On scroll event
+        window.addEventListener("scroll", function() { // On scroll event
             var currentScroll = window.pageYOffset || document.documentElement.scrollTop; // Get current scroll position
-            if (currentScroll > lastScrollTop){ // If scrolling down
+            if (currentScroll > lastScrollTop) { // If scrolling down
                 document.getElementById("footer").classList.add("hidden"); // Hide footer
             } else { // If scrolling up
                 document.getElementById("footer").classList.remove("hidden"); // Show footer
